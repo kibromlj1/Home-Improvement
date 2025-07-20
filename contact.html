@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact Us - Msganay Home Improvement</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Msganay Home Improvement</h1>
+    <p>Your trusted local renovation experts</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html#home">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="index.html#services">Services</a></li>
+      <li><a href="index.html#gallery">Gallery</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main class="container">
+    <section class="contact section" id="contact">
+      <h2>Contact Us</h2>
+      <p class="contact-note">
+        Have questions or want to start your renovation project? Leave us your details below, and we'll get back to you as soon as possible!
+      </p>
+
+      <div class="contact-card">
+        <form action="https://formsubmit.co/yesestifanos@gmail.com" method="POST" novalidate>
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <input type="tel" name="phone" placeholder="Your Phone Number" required />
+          <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+          <input type="hidden" name="_captcha" value="false" />
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Msganay Home Improvement | Silver Spring, MD | Call us: 240-938-9687</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
